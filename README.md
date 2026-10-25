@@ -87,3 +87,4 @@ python3 -m http.server 8000
 ## Yayına alma
 
 Tüm klasörü hostinginizin kök dizinine (`public_html`) yükleyin. Alan adı `www.hascini.com` dışında olacaksa `sitemap.xml`, `robots.txt` ve HTML dosyalarındaki `canonical`/`og:url` adreslerini güncelleyin.
+'# hascini' 
