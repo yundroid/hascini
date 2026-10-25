@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ürünler | Kilit Parke, Bordür, Çim Taşı, Dış Mekan Seramik — Has Çini</title>
+  <meta name="description" content="Behaton ve kilit parke taşı, yol ve bahçe bordürü, çim taşı, basamak, 20 mm dış mekan porselen, andezit ve bazalt doğal taş. Renk ve ölçü seçeneklerini inceleyin, teklif isteyin.">
+  <link rel="canonical" href="https://www.hascini.com/urunler.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="Ürünler | Kilit Parke, Bordür, Çim Taşı, Dış Mekan Seramik — Has Çini">
+  <meta property="og:description" content="Behaton ve kilit parke taşı, yol ve bahçe bordürü, çim taşı, basamak, 20 mm dış mekan porselen, andezit ve bazalt doğal taş. Renk ve ölçü seçeneklerini inceleyin, teklif isteyin.">
+  <meta property="og:url" content="https://www.hascini.com/urunler.html">
+  <meta property="og:image" content="https://www.hascini.com/assets/img/og.jpg">
+  <meta name="theme-color" content="#1b1a18">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="urunler">
+  <a class="skip" href="#main">İçeriğe geç</a>
+  <header id="site-header"></header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="hero-bg" data-desen="stretcher" data-renk="Antrasit" data-w="1600" data-h="600" aria-hidden="true"></div>
+      <div class="container">
+        <ol class="crumbs"><li><a href="index.html">Ana Sayfa</a></li><li>Ürünler</li></ol>
+        <span class="eyebrow">Ürün Kataloğu</span>
+        <h1>Ürünlerimiz</h1>
+        <p class="lead">Ürüne tıklayarak ölçü, kalınlık ve renk seçeneklerini görün; beğendiklerinizi teklif listenize ekleyip tek mesajla fiyat isteyin.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="toolbar">
+          <div class="chips" id="urun-filtre" role="group" aria-label="Kategori filtresi"></div>
+          <label class="search"><span class="sr-only">Ürün ara</span><svg class="ico" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><input id="urun-ara" type="search" placeholder="Ürün, renk veya kullanım alanı ara…"></label>
+        </div>
+        <p class="count" id="urun-sayi" aria-live="polite"></p>
+        <div class="grid" id="urun-grid"></div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="hesapla">
+      <div class="container">
+        <div class="head"><div>
+          <span class="eyebrow">Metraj Hesaplayıcı</span>
+          <h2>Ne kadar malzeme lazım?</h2>
+          <p class="lead">Alanınızın ölçülerini girin, fire payı dahil ihtiyacınızı görün.</p>
+        </div></div>
+        <div class="calc" id="hesaplayici">
+          <div class="calc-form">
+            <label>Ürün<select id="h-urun"></select></label>
+            <div class="seg-radio" role="radiogroup" aria-label="Ölçü girişi">
+              <label><input type="radio" name="h-mod" value="olcu" checked><span>En × Boy</span></label>
+              <label><input type="radio" name="h-mod" value="alan"><span>Toplam m²</span></label>
+            </div>
+            <div class="row2 h-olcu">
+              <label>En (m)<input id="h-en" type="number" min="0" step="0.1" value="8" inputmode="decimal"></label>
+              <label>Boy (m)<input id="h-boy" type="number" min="0" step="0.1" value="12" inputmode="decimal"></label>
+            </div>
+            <div class="h-alan" hidden><label>Toplam alan (m²)<input id="h-m2" type="number" min="0" step="1" value="100" inputmode="decimal"></label></div>
+            <label>Fire payı<select id="h-fire">
+              <option value="5">%5 — düz, kesimi az alan</option>
+              <option value="10" selected>%10 — standart</option>
+              <option value="15">%15 — kavisli / çok kesimli alan</option>
+            </select></label>
+          </div>
+          <div class="calc-out" aria-live="polite">
+            <div class="r"><span>Net alan</span><strong id="h-net">—</strong></div>
+            <div class="r big"><span>Önerilen miktar</span><strong id="h-top">—</strong></div>
+            <div class="r" id="h-adet-w"><span>Yaklaşık adet</span><strong id="h-adet">—</strong></div>
+            <button class="btn btn-primary" id="h-ekle" type="button">Teklif Listeme Ekle</button>
+            <p class="fine">Hesaplama bilgi amaçlıdır. Kesin metraj için ücretsiz keşif hizmetimizden yararlanabilirsiniz.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta">
+          <div class="hero-bg" data-desen="hexagon" data-renk="Antrasit" data-w="1400" data-h="600" aria-hidden="true"></div>
+          <div>
+            <h2>Aradığınız ürünü bulamadınız mı?</h2>
+            <p>Katalogda yer almayan ölçü, renk ve modelleri de sizin için temin ediyoruz.</p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-wa" data-site="whatsapp" data-mesaj="Merhaba, katalogda göremediğim bir ürünü arıyorum:" target="_blank" rel="noopener" href="#">WhatsApp'tan Sorun</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/desen.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
