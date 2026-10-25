@@ -11,21 +11,20 @@ window.SITE = {
   slogan: "Kaldırımdan bahçeye, dış mekanın her metrekaresi",
 
   // Telefon: ekranda görünen biçim ve arama için kullanılan biçim
-  telefon: "0212 000 00 00",        // TODO
-  telefonLink: "+902120000000",     // TODO (boşluksuz, +90 ile)
-  gsm: "0532 000 00 00",            // TODO
+  telefon: "0532 513 21 22",
+  telefonLink: "+905325132122",     // boşluksuz, +90 ile
+  gsm: "0532 513 21 22",
   // WhatsApp numarası: ülke kodu ile, başında + olmadan
-  whatsapp: "905320000000",         // TODO
-  eposta: "info@hascini.com",       // TODO
+  whatsapp: "905325132122",
+  eposta: "34hascini@gmail.com",
 
-  adres: "E-5 Karayolu üzeri, Büyükçekmece / İstanbul", // TODO: mahalle, cadde, no
-  // Google Haritalar'da işletmeyi bulup "Paylaş > Harita yerleştir" ile alınan src adresi
-  haritaEmbed: "https://www.google.com/maps?q=B%C3%BCy%C3%BCk%C3%A7ekmece%20E-5&output=embed", // TODO
-  haritaLink: "https://maps.google.com/?q=Has+%C3%87ini+B%C3%BCy%C3%BCk%C3%A7ekmece", // TODO
+  adres: "Mimarsinan Mh, E-5 Karayolu No:34, 34535 Büyükçekmece / İstanbul",
+  // Konum: 41.01790358508834, 28.560796890412625
+  haritaEmbed: "https://www.google.com/maps?q=41.01790358508834,28.560796890412625&hl=tr&z=17&output=embed",
+  haritaLink: "https://www.google.com/maps/search/?api=1&query=41.01790358508834,28.560796890412625",
 
   calismaSaatleri: [
-    ["Pazartesi – Cumartesi", "08:00 – 19:00"], // TODO
-    ["Pazar", "Kapalı"]
+    ["Her gün", "09:00 – 21:00"]
   ],
 
   // Rakamlar (ana sayfadaki sayaçlar) — gerçek değerlerle güncelleyin
