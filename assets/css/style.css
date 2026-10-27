@@ -114,13 +114,11 @@ p { margin: 0 0 1em; }
 .nav { display: flex; align-items: center; gap: 28px; height: 76px; }
 .brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; flex: none; }
 .brand-mark {
-  width: 42px; height: 42px; border-radius: 10px; flex: none;
-  background:
-    linear-gradient(45deg, transparent 46%, rgba(255,255,255,.9) 46% 54%, transparent 54%) 0 0 / 14px 14px,
-    linear-gradient(-45deg, transparent 46%, rgba(255,255,255,.55) 46% 54%, transparent 54%) 7px 7px / 14px 14px,
-    var(--accent);
-  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, .08);
+  width: 50px; height: 50px; border-radius: 50%; flex: none;
+  background: url(../img/logo.svg) center / contain no-repeat;
 }
+/* koyu zeminde siyah dairenin kenarı kaybolmasın */
+.brand-light .brand-mark { box-shadow: 0 0 0 2px rgba(255, 255, 255, .85); }
 .brand-txt { display: flex; flex-direction: column; line-height: 1.1; }
 .brand-txt strong { font-family: var(--ff-h); font-size: 1.28rem; font-weight: 800; letter-spacing: .02em; }
 .brand-txt small { font-size: .7rem; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; font-weight: 600; margin-top: 3px; }
@@ -517,7 +515,7 @@ a.info-card:hover { box-shadow: var(--shadow-lg); }
   .nav-phone > .ico { width: 44px; height: 44px; padding: 11px; }
   .toast { bottom: auto; top: 76px; transform: translate(-50%, -220%); }
   .brand-txt small { display: none; }
-  .brand-mark { width: 36px; height: 36px; }
+  .brand-mark { width: 42px; height: 42px; }
   .hero-actions .btn { flex: 1; }
   .trust-in { grid-template-columns: 1fr; }
   .trust-i:nth-child(2) { border-top: 1px solid var(--line); }
