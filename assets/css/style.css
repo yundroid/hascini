@@ -119,9 +119,9 @@ p { margin: 0 0 1em; }
 }
 /* koyu zeminde siyah dairenin kenarı kaybolmasın */
 .brand-light .brand-mark { box-shadow: 0 0 0 2px rgba(255, 255, 255, .85); }
-.brand-txt { display: flex; flex-direction: column; line-height: 1.1; }
-.brand-txt strong { font-family: var(--ff-h); font-size: 1.28rem; font-weight: 800; letter-spacing: .02em; }
-.brand-txt small { font-size: .7rem; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; font-weight: 600; margin-top: 3px; }
+.brand-txt { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.1; }
+.brand-yazi { height: 24px; width: auto; }
+.brand-txt small { font-size: .7rem; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; font-weight: 600; margin-top: 6px; }
 .brand-light .brand-txt small { color: #a39b8f; }
 .nav-links { display: flex; gap: 4px; list-style: none; margin: 0 auto; padding: 0; }
 .nav-links a { display: block; padding: 10px 14px; border-radius: 999px; text-decoration: none; font-weight: 600; font-size: .95rem; color: var(--ink-2); transition: background .2s, color .2s; }
@@ -516,6 +516,7 @@ a.info-card:hover { box-shadow: var(--shadow-lg); }
   .toast { bottom: auto; top: 76px; transform: translate(-50%, -220%); }
   .brand-txt small { display: none; }
   .brand-mark { width: 42px; height: 42px; }
+  .brand-yazi { height: 20px; }
   .hero-actions .btn { flex: 1; }
   .trust-in { grid-template-columns: 1fr; }
   .trust-i:nth-child(2) { border-top: 1px solid var(--line); }

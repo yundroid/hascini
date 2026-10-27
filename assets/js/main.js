@@ -69,7 +69,7 @@
         <nav class="container nav" aria-label="Ana menü">
           <a class="brand" href="index.html" aria-label="${esc(S.firma)} ana sayfa">
             <span class="brand-mark" aria-hidden="true"></span>
-            <span class="brand-txt"><strong>HAS ÇİNİ</strong><small>Parke · Bordür · Dış Mekan</small></span>
+            <span class="brand-txt"><img class="brand-yazi" src="assets/img/logo-yazi.svg" alt="HAS ÇİNİ" width="132" height="24"><small>Parke · Bordür · Dış Mekan</small></span>
           </a>
           <ul class="nav-links" id="nav-links">
             ${menu.map(([id, href, ad]) => `<li><a href="${href}"${id === sayfa ? ' aria-current="page"' : ""}>${ad}</a></li>`).join("")}
@@ -101,7 +101,7 @@
         <div>
           <a class="brand brand-light" href="index.html">
             <span class="brand-mark" aria-hidden="true"></span>
-            <span class="brand-txt"><strong>HAS ÇİNİ</strong><small>Parke · Bordür · Dış Mekan</small></span>
+            <span class="brand-txt"><img class="brand-yazi" src="assets/img/logo-yazi-acik.svg" alt="HAS ÇİNİ" width="132" height="24"><small>Parke · Bordür · Dış Mekan</small></span>
           </a>
           <p class="footer-about">${esc(S.slogan)}. Büyükçekmece E-5 üzerindeki satış alanımızda kilit parke, bordür, bahçe ve dış mekan seramik ürünlerini yerinde inceleyebilirsiniz.</p>
           ${sosyal ? `<div class="social">${sosyal}</div>` : ""}
